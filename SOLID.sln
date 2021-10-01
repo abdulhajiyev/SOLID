@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLID", "SOLID\SOLID.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenClosed", "OpenClosed\OpenClosed.csproj", "{F078A3D3-B2D1-435B-9771-6E41971A89A5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiskovSubstitution", "LiskovSubstitution\LiskovSubstitution.csproj", "{74603D11-8B11-407D-8086-E6053FF15FF1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{F078A3D3-B2D1-435B-9771-6E41971A89A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F078A3D3-B2D1-435B-9771-6E41971A89A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F078A3D3-B2D1-435B-9771-6E41971A89A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74603D11-8B11-407D-8086-E6053FF15FF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74603D11-8B11-407D-8086-E6053FF15FF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74603D11-8B11-407D-8086-E6053FF15FF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74603D11-8B11-407D-8086-E6053FF15FF1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
