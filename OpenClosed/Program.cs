@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace OpenClosed
 {
@@ -10,7 +11,10 @@ namespace OpenClosed
         }
     }
 
-    //Bad Example
+
+
+
+    /* //Bad Example
     public class Rectangle
     {
         public double Width { get; set; }
@@ -41,7 +45,34 @@ namespace OpenClosed
 
             return area;
         }
+    }*/
+
+
+
+    // Good Example
+    public abstract class Shape
+    {
+        public abstract double Area();
     }
 
+    public class Rectangle : Shape
+    {
+        public double Width { get; set; }
+        public double Height { get; set; }
+        public override double Area() => Width * Height;
+    }
 
+    public class Circle : Shape
+    {
+        public double Radius { get; set; }
+        public override double Area() => Radius * Radius * Math.PI;
+    }
+
+    public class Calculate
+    {
+        public double Area(Shape[] shapes)
+        {
+            return shapes.Sum(shape => shape.Area());
+        }
+    }
 }
